@@ -17,5 +17,8 @@
 | 编号 | 主题 | 文件名 |
 |------|------|--------|
 | 01 | memory-management | `01-memory-management.md` |
+| 02 | rag | `02-rag.md` |
+| 03 | practical-experience | `03-practical-experience.md` |
+| 04 | agent-orchestration | `04-agent-orchestration.md` |
 
 > 后续继续补充...
