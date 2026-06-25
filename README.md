@@ -8,6 +8,7 @@
 .
 ├── README.md                    # 本说明文档
 ├── template.md                  # 主题模板，新建文件时参考它
+├── reference.md                 # 参考资料索引
 ├── 01-memory-management.md
 └── ...
 ```
@@ -20,5 +21,10 @@
 | 02 | rag | `02-rag.md` |
 | 03 | practical-experience | `03-practical-experience.md` |
 | 04 | agent-orchestration | `04-agent-orchestration.md` |
+| 05 | agent-evaluation | `05-agent-evaluation.md` |
 
 > 后续继续补充...
+
+## 参考资料
+
+外部优质文章、视频等集中收录在 [`reference.md`](reference.md) 中，按主题分类并记录关键元数据，便于检索与溯源。

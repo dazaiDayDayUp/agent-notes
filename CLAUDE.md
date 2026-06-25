@@ -11,6 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 每个主题对应一个文件，命名格式为 `NN-topic-name.md`（两位数字编号 + 短横线连接的英文主题名），如 `01-memory-management.md`。
 - 新建主题文件时，**以 `template.md` 为模板**：顶部一级标题写主题名，紧跟一句 `>` 引用概括核心内容，正文用 `## Q1：标题` / `## Q2：标题` 的问答块，每个问答含「问题描述」与「参考回答」，块之间用 `---` 分隔。
 - 文件内一级标题（`#`）使用英文主题名，与文件名中的 `topic-name` 保持一致。
+- **`reference.md` 是参考资料索引，不属于主题文件**，不遵循 `NN-topic-name.md` 命名。其中按主题分类收录外部资料的元数据（标题、URL、来源、标签、摘要等），条目之间用 `---` 分隔。
 
 ## 添加新主题时必须同步更新 README
 
