@@ -23,6 +23,8 @@
 | 04 | agent-orchestration | `04-agent-orchestration.md` |
 | 05 | agent-evaluation | `05-agent-evaluation.md` |
 | 06 | tool-mcp-skill | `06-tool-mcp-skill.md` |
+| 07 | redis | `07-redis.md` |
+| 08 | mysql | `08-mysql.md` |
 
 > 后续继续补充...
 
