@@ -22,6 +22,7 @@
 | 03 | practical-experience | `03-practical-experience.md` |
 | 04 | agent-orchestration | `04-agent-orchestration.md` |
 | 05 | agent-evaluation | `05-agent-evaluation.md` |
+| 06 | tool-mcp-skill | `06-tool-mcp-skill.md` |
 
 > 后续继续补充...
 
