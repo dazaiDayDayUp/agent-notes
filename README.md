@@ -26,6 +26,7 @@
 | 07 | redis | `07-redis.md` |
 | 08 | mysql | `08-mysql.md` |
 | 09 | computer-networks | `09-computer-networks.md` |
+| 10 | heima-comment | `10-heima-comment.md` |
 
 > 后续继续补充...
 
