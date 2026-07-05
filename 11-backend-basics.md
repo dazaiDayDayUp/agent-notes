@@ -28,5 +28,33 @@
 **参考回答**
 
 主要回答线程池的七个参数，同时提到核心线程数的选择原则和场景是 CPU 密集型还是 IO 密集型有关。
+线程池的七个参数包括核心线程数、最大线程数、阻塞队列、线程工厂、拒绝策略、非核心线程存活时间、非核心线程存活时间单位。还有一个参数我们提到的不多，就是空闲时核心线程是否允许被销毁。
+
+---
+
+## Q3：单例模式
+
+**问题描述**
+
+使用双重校验锁实现单例模式？
+
+**参考回答**
+
+```java
+public class Singleton {
+    private static volatile Singleton instance;
+    private Singleton() {}
+    public static Singleton getInstance() {
+        if (instance == null) {
+            synchronized (Singleton.class) {
+                if (instance == null) {
+                    instance = new Singleton();
+                }
+            }
+        }
+        return instance;
+    }
+}
+```
 
 ---
