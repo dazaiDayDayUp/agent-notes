@@ -30,6 +30,22 @@
 
 ---
 
+- **标题**: Quantifying Infrastructure Noise in Agentic Coding Evals
+- **URL**: <https://www.anthropic.com/research/infrastructure-noise>
+- **来源**: Anthropic Research
+- **标签**: agent, evaluation, benchmark, infrastructure, variance, coding-agent, terminal-bench, swe-bench
+- **摘要**: Anthropic 量化了基础设施配置对 Agentic 编码评测结果的影响：在 Terminal-Bench 2.0 上，资源最充裕与最紧张的配置之间成功率相差 6 个百分点（p < 0.01），主要来自容器 OOM 等基础设施错误。文章区分了 3x 资源以内（仅修复基础设施稳定性）与 3x 以上（实际改变评测所衡量的能力）两个区间，建议评测同时声明资源保证值与硬上限并校准二者，且对 3 个百分点以内的榜单差距保持怀疑。
+
+---
+
+- **标题**: Testing Agent Skills Systematically with Evals
+- **URL**: <https://developers.openai.com/blog/eval-skills>
+- **来源**: OpenAI Developers Blog（Codex）
+- **标签**: agent, skills, evaluation, evals, codex, rubric, deterministic-checks, regression
+- **摘要**: OpenAI Codex 团队关于如何系统化评估 Agent Skill 的实践指南：先定义成功标准（结果/过程/风格/效率四类目标），再手工触发技能暴露隐藏假设，用 10–20 条小规模 prompt 集（含显式、隐式、上下文触发与负样本）防回归，通过 `codex exec --json` 的 JSONL trace 做确定性检查，最后用 `--output-schema` 约束的 rubric 做模型辅助的定性评分。
+
+---
+
 ## 未完待续
 
 ---
