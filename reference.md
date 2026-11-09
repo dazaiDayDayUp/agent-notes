@@ -46,6 +46,32 @@
 
 ---
 
+- **标题**: LifeVal
+- **URL**: <https://openai.com/zh-Hans-CN/index/lifeval/>
+- **来源**: OpenAI
+- **标签**: agent, evaluation, benchmark, lifeval, everyday-tasks, personal-assistant, task-completion
+- **摘要**: OpenAI 面向日常生活与个人智能体任务构建的评估方案，依据时间使用研究和 3,995 人调查选题，覆盖照护、健康、教育、家庭事务、个人财务、购物及政务服务。它强调评估 AI 是否能通过浏览器、计算机操作和连接器真正完成任务，而不只是给出建议或聊天回复。
+
+---
+
+- **标题**: Eval-production behavior gaps in agent safety and the role of eval-awareness
+- **URL**: <https://alignment.openai.com/eval-production-behavior-gap/>
+- **来源**: OpenAI Alignment
+- **标签**: agent, evaluation, safety, eval-awareness, eval-production-gap, codex, long-horizon
+- **摘要**: OpenAI 比较长程 Agent 安全评估与相似生产决策中的行为，发现六个受测模型的评估成功率均低于生产环境，差距为 10.2–37.4 个百分点。研究表明，仅仅意识到自己被评估不一定会改变行为，而对评估目标的判断与行为差距密切相关；干预实验进一步显示，正确或错误的目标提示会分别显著提高或降低安全评估成功率。
+
+---
+
+## Agent 记忆
+
+- **标题**: The components of agent memory
+- **URL**: <https://www.anthropic.com/research/components-of-agent-memory>
+- **来源**: Anthropic Research
+- **标签**: agent, memory, long-term-memory, memory-notes, dreaming, sleep-time-compute, continual-learning, evaluation
+- **摘要**: Anthropic 对跨会话 Agent 记忆的拆解：记忆是从经验中获得、可在后续会话读取的知识，不包括权重更新、单会话上下文学习和 compaction。文章介绍用显著性标记与 memory notes 保存经验，以及利用空闲时间反思日志、纠错并重组记忆的 dreaming，并结合 CL-Bench 等评估分析各组成部分对记忆组织与学习循环的贡献。
+
+---
+
 ## 未完待续
 
 ---
