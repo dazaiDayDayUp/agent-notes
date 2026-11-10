@@ -62,6 +62,24 @@
 
 ---
 
+- **标题**: Learnings from Auditing Public Evaluations
+- **URL**: <https://www.primeintellect.ai/blog/auditing-public-evaluations>
+- **来源**: Prime Intellect
+- **标签**: evaluation, benchmark, public-evals, grader, reward-hacking, answer-leakage, automationbench, officeqa, hle-diamond
+- **摘要**: Prime Intellect 通过审计 AutomationBench、OfficeQA Pro v2 和 HLE-Diamond，揭示了自然语言工具参数说明、脆弱或含隐含要求的评分器、联网答案泄漏与奖励作弊等问题如何扭曲公开评测结果。文章给出 JSON Schema 工具说明、参考答案评判器、离线语料和同步工具输出监控等修复方案，并展示修正后部分基准接近饱和、模型分数显著变化的现象。
+
+---
+
+## Agent 编排
+
+- **标题**: Building agents: When to fold subagents into your main agent loop
+- **URL**: <https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop>
+- **来源**: Claude Resources（Anthropic Applied AI）
+- **标签**: agent, orchestration, subagents, single-agent-loop, skills, tools, progressive-disclosure, evaluation
+- **摘要**: Anthropic Applied AI 总结何时应将路由、规划和领域子 Agent 合并进主 Agent 循环：借助共享上下文及 Skills、Tools 的渐进式披露，单 Agent 架构往往能以更低成本和延迟获得更高质量。子 Agent 仍适用于上下文膨胀导致性能下降、独立任务并行或工具选择与指令冲突等场景；迁移时应建立端到端评估，逐个合并并对比任务完成情况，而非一次性重构。
+
+---
+
 ## Agent 记忆
 
 - **标题**: The components of agent memory
