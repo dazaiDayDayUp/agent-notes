@@ -54,6 +54,14 @@
 
 ---
 
+- **标题**: Building strong safety evaluations
+- **URL**: <https://www.anthropic.com/research/building-strong-safety-evaluations>
+- **来源**: Anthropic Research
+- **标签**: agent, evaluation, safety, evals, construct-validity, multi-turn, over-refusal, best-practices
+- **摘要**: Anthropic 关于构建可靠 AI 安全评估的方法指南：由领域专家与评估方法专家共同定义伤害和评分标准，在沙箱中安全运行评估，并根据研究问题选择观察性或因果性设计。文章强调构念效度，指出拒答率并不总能代表安全性，应针对风险领域制定 rubric、衡量多轮对话中的适当响应率，同时测试有害请求的合规与良性请求的过度拒答。
+
+---
+
 - **标题**: Eval-production behavior gaps in agent safety and the role of eval-awareness
 - **URL**: <https://alignment.openai.com/eval-production-behavior-gap/>
 - **来源**: OpenAI Alignment
